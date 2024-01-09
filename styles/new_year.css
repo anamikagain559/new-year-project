@@ -411,7 +411,32 @@ footer {
   justify-content: space-between;
 }
 .foot-col {
-  width: 375px;
+  width: 400px;
+  margin-bottom:0px;
+}
+.foot-flex-1{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.foot-flex-1 >img{
+
+  width: 24px;
+  height: 24px;
+  margin-bottom:0px;
+}
+.foot-flex-2{
+  display: flex;
+  gap: 10px;
+}
+.foot-flex-2 >img{
+
+  width: 24px;
+  height: 24px;
+}
+.foot-flex-1 p,
+.foot-flex-2 p {
+  margin: 0;
 }
 .social-icons {
   display: flex;
